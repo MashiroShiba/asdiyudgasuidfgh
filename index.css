@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f0ead6;
+  color: #333;
+}
+
+header {
+  background-color: #88d8c0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(245, 239, 175);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #88d8c0;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: rgb(245, 239, 175);
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  transform: translateY(-5px);
+}
+
+main {
+  text-align: center;
+  padding: 20px;
+}
+
+main h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 1.2rem;
+  max-width: 90%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.ad-section {
+  background: linear-gradient(to right, #e6c60e, #92d100);
+  padding: 50px 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.clothing-section {
+  background-color: #f0ead6;
+  padding: 50px 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.clothing-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.promo-section {
+  background: linear-gradient(to right, #ff6f61, #ffcccb);
+  padding: 50px 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+.drink-section {
+  background: linear-gradient(to right, #56c5e4, #ffcccb);
+  padding: 50px 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: #88d8c0;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

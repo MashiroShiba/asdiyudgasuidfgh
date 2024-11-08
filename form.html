@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" type="image/x-icon" href="arizonalogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="location.href='index.html'">AriZona</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </header>
+
+    <div class="form-wrapper">
+        <div class="form-section">
+            <h2>Complete this form to sign up for a SPECIAL newsletter!</h2>
+            <div class="input-group">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="input-group">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <div class="input-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="99" required>
+            </div>
+            <div class="input-group">
+                <label for="favorite_product">Favorite Product:</label>
+                <input type="text" id="favorite_product" name="favorite_product" required>
+            </div>
+            <div class="input-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" required></textarea>
+            </div>
+            <input type="submit" value="Send Form">
+        </div>
+    </div>
+</body>
+</html>
